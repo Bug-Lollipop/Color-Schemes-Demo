@@ -2,11 +2,20 @@ extends layout/layout
 append css
 	link(rel="stylesheet", href="css/index.css")
 append top-script
+	//默认为樱桃红色
+	article.wrapper.cherry
+		section.component
+			h2.component__heading 网页换肤demo
+			ul.component__list
+				li.component__list-item
+				li.component__list-item
+				li.component__list-item
+				li.component__list-item
+	section.controls
+		button.controls(data-theme='default') 默认
+		button.controls(data-theme='banana') 香蕉黄
+		button.controls(data-theme='cherry', disabled='') 樱桃红
+		button.controls(data-theme='blueberry') 深紫色
+		button.controls(data-theme='leaf') 绿色
+		button.controls(data-theme='nightsky') 深空色
 	script(src='js/index.js')
-block header
-	.header
-block container
-	.container
-		h1 #{content}
-block footer
-	.footer
