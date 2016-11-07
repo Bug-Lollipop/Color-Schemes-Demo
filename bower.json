@@ -1,0 +1,25 @@
+{
+  "name": "Color-Schemes-Demo",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Bug-Lollipop/Color-Schemes-Demo.git#readme",
+  "authors": [
+    "Bug-Lollipop <1217305553@qq.com>"
+  ],
+  "description": "换肤插件",
+  "main": "gulpfile.js",
+  "keywords": [
+    "Color"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1",
+    "bootstrap": "~3.3.5"
+  }
+}

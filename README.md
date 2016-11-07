@@ -1,2 +1,3 @@
-# Color-Schemes-Demo
-Color Schemes Demo
+1. `npm install`
+2. `gulp`
+

@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		title #{title}
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(http-equiv="content-type", content="text/html, charset=UTF-8")
+		meta(name="description", content="#{description}")
+		meta(name="keywords", content="#{keywords}")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+		block css
+		block top-script
+			script(src="libs/jquery/jquery.min.js")
+	body
+		block header
+			.header Here is header
+			br
+		block container
+			.container Here is container
+			br
+		block footer
+			.footer Here is footer
+		block bottom-script

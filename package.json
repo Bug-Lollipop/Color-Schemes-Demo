@@ -1,0 +1,36 @@
+{
+  "name": "Color-Schemes-Demo",
+  "version": "1.0.0",
+  "description": "换肤插件",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bug-Lollipop/Color-Schemes-Demo.git"
+  },
+  "keywords": [
+    "Color"
+  ],
+  "author": "Bug-Lollipop <1217305553@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bug-Lollipop/Color-Schemes-Demo.git/issues"
+  },
+  "homepage": "https://github.com/Bug-Lollipop/Color-Schemes-Demo.git#readme",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-data": "^1.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifycss": "^1.0.4",
+    "gulp-wrap-amd": "^0.5.0",
+    "path": "^0.11.14"
+  }
+}
